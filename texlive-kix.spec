@@ -1,3 +1,9 @@
+# revision 21606
+# category Package
+# catalog-ctan /macros/latex/contrib/kix
+# catalog-date 2011-03-04 11:12:16 +0100
+# catalog-license lppl1
+# catalog-version undef
 Name:		texlive-kix
 Version:	20110304
 Release:	1
@@ -39,6 +45,7 @@ trade mark of PTT Post Holdings B. V.
 %{_texmfdistdir}/tex/latex/kix/kix.sty
 %doc %{_texmfdistdir}/doc/latex/kix/kix.pdf
 %doc %{_texmfdistdir}/doc/latex/kix/kix.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -49,3 +56,5 @@ trade mark of PTT Post Holdings B. V.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
