@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-kix
 Version:	20110304
-Release:	9
+Release:	10
 Summary:	Typeset KIX codes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/kix
