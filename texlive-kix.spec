@@ -5,8 +5,8 @@
 # catalog-license lppl1
 # catalog-version undef
 Name:		texlive-kix
-Version:	20110304
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	Typeset KIX codes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/kix
