@@ -1,9 +1,3 @@
-# revision 21606
-# category Package
-# catalog-ctan /macros/latex/contrib/kix
-# catalog-date 2011-03-04 11:12:16 +0100
-# catalog-license lppl1
-# catalog-version undef
 Name:		texlive-kix
 Version:	20170414
 Release:	1
@@ -33,9 +27,8 @@ trade mark of PTT Post Holdings B. V.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/kix/kix.sty
-%doc %{_texmfdistdir}/doc/latex/kix/kix.pdf
-%doc %{_texmfdistdir}/doc/latex/kix/kix.tex
+%{_texmfdistdir}/tex/latex/kix
+%doc %{_texmfdistdir}/doc/latex/kix
 
 #-----------------------------------------------------------------------
 %prep
@@ -46,17 +39,3 @@ trade mark of PTT Post Holdings B. V.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110304-2
-+ Revision: 752986
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20110304-1
-+ Revision: 718775
-- texlive-kix
-- texlive-kix
-- texlive-kix
-- texlive-kix
-
