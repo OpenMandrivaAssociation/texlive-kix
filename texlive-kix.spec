@@ -1,5 +1,5 @@
 Name:		texlive-kix
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Typeset KIX codes
 Group:		Publishing
