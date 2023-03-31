@@ -1,6 +1,6 @@
 Name:		texlive-kix
 Version:	21606
-Release:	1
+Release:	2
 Summary:	Typeset KIX codes
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/kix
